@@ -1,0 +1,8 @@
+project: wine_quality_project
+pipeline: wine_quality_test
+verbose: false
+writers:
+- data_collection_consent: true
+  formats: ['protobuf']
+  output_path: whylabs
+  type: whylabs
