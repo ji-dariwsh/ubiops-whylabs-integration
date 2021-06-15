@@ -35,7 +35,6 @@ class Deployment:
         with open(model_file, 'rb') as file:
             self.model = pickle.load(file)
 
-
     def request(self, data):
         """
         Method for deployment requests, called separately for each individual request.
